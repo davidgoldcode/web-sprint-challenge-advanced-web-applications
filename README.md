@@ -28,9 +28,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+A token is a private key that can help authenticate and verify information. For instance, a user can send login information to a server. If that exists in the database, then the server will issue a token verifying that this is in fact a user. Typically, this gives that user access to information they may have not otherwise had. 
+
+
 2. What steps can you take in your web apps to keep your data secure?
+
+There’s a ton of things to do to keep data secure, but using standard best practices can help mitigate concerns. Largely, seal off PII by creating private routes and using tokens for logins. It’s also beneficial to install high quality password parameters so that users can’t be compromised. 
+
+
 3. Describe how web servers work.
+
+Often, when we refer to web servers, we’re referring to physical hardware that stores information relevant to web sites / web apps. They “host” that information, and when you type a URL into a browser, that essentially sends a GET request to a web server computer somewhere that has the relevant code. 
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+Create - POST request
+Read - GET request 
+Update - PUT request
+Delete - DELETE request 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
